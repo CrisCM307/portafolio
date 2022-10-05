@@ -31,6 +31,10 @@ button:hover{
     color: white;
     
 }
+button:active{
+    background-color: white;
+    color: black;
+}
 .container{
     max-width: 1400px;
     margin: auto;
@@ -137,7 +141,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/futbol.jpg");}
+    ,url("imagenes/bas.jpg");}
 
 .carta:nth-child(3){
     background-image: linear-gradient(
@@ -145,8 +149,17 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/futbol.jpg");
+    ,url("imagenes/nata.jpg");
 }
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/dota.jpg");
+}
+
 
 #contacto .container{
     text-align: center;
@@ -285,7 +298,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("imagenes/bas.jpg");
     }
 
     .carta:nth-child(3){
@@ -294,12 +307,22 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("imagenes/nata.jpg");
 
     }
+    .carta:nth-child(4){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imagenes/dota.jpg");
+
+    }
+    
 
     #contacto{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("imagenes/pexels-pixabay-267394\ \(1\).jpg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
